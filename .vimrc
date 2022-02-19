@@ -8,7 +8,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
-
+Plug 'rking/ag.vim'
+Plug 'ggreer/the_silver_searcher'
 call plug#end()
 
 set mouse=a
