@@ -15,6 +15,7 @@ call plug#end()
 set mouse=a
 
 syntax on
+set encoding=utf-8
 let g:mapleader='.'
 colorscheme gruvbox
 set background=dark
