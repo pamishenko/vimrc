@@ -9,12 +9,9 @@ Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'rking/ag.vim'
 Plug 'ggreer/the_silver_searcher'
-<<<<<<< HEAD
 Plug 'ycm-core/YouCompleteMe'
 Plug 'phanviet/vim-monokai-pro'
-=======
 Plug 'udalov/kotlin-vim'
->>>>>>> 2fc628887359210daf90e9f5c3b7bb74e7a2e90f
 call plug#end()
 
 let &t_SI = "\e[6 q"
