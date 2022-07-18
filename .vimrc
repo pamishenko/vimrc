@@ -2,7 +2,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'morhetz/gruvbox'
-Plug 'ycm-core/YouCompleteMe'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -10,14 +9,21 @@ Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'rking/ag.vim'
 Plug 'ggreer/the_silver_searcher'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'phanviet/vim-monokai-pro'
 call plug#end()
+
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
 
 set mouse=a
 
 syntax on
-set encoding=utf-8
 let g:mapleader='.'
+set termguicolors
+"colorscheme monokai_pro
 colorscheme gruvbox
+set encoding=utf-8
 set background=dark
 set number
 set hlsearch
