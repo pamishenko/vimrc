@@ -1,4 +1,4 @@
-Перед началом работы с конфигом, нужно установит инсталятор плагинов
+Перед началом работы с конфигом, нужно установить инсталятор плагинов
 
 ШАГ1
 Pluginstall https://github.com/junegunn/vim-plug/:
@@ -11,3 +11,7 @@ Pluginstall https://github.com/junegunn/vim-plug/:
 ШАГ3
 Открыть vim и выполнить команду
 :PlugInstall
+
+ YoucompleetMe -  плагин автокомплишн подробнее см здесь https://github.com/ycm-core/YouCompleteMe
+ 
+ todo (когда-нибудь напишу скрипт, но потом)
