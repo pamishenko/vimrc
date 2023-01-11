@@ -35,6 +35,7 @@ set shiftwidth=4
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,space:·,nbsp:␣
 set list
 set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
+autocmd VimEnter * NERDTree | wincmd p
 " Use homebrew's clangd
 let g:ycm_clangd_binary_path = trim(system('brew --prefix llvm')).'/bin/clangd'
 "mappings
