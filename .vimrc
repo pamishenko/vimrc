@@ -13,6 +13,9 @@ Plug 'phanviet/vim-monokai-pro'
 Plug 'udalov/kotlin-vim'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-commentary'
+
+filetype plugin indent on
 
 call plug#end()
 
