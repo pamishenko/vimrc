@@ -5,7 +5,6 @@ Plug 'morhetz/gruvbox'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'rking/ag.vim'
 Plug 'ggreer/the_silver_searcher'
@@ -14,6 +13,7 @@ Plug 'udalov/kotlin-vim'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
+Plug 'ryanoasis/vim-devicons'
 
 filetype plugin indent on
 
@@ -36,7 +36,7 @@ let g:ctrlp_custom_ignore = {
 set mouse=a
 
 syntax on
-let g:mapleader='.'
+let g:mapleader='ß'
 let g:termdebugger="rust-gdb"
 set termguicolors
 "colorscheme monokai_pro
